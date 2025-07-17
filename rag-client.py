@@ -4,7 +4,7 @@ import time
 SOCKET_TYPE = "internet"  # "internet" or "local"
 SOCKET_PATH = "/tmp/gymapp_rag_llm.sock"
 HOST = ''
-PORT = 5000 # 6000 is cache 5000 is llm
+PORT = 6000 # 6000 is cache 5000 is llm
 END_MARKER = b"##__END__##"
 
 def chat_session():
