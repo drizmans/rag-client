@@ -3,7 +3,7 @@ import time
 
 SOCKET_TYPE = "internet"  # "internet" or "local"
 SOCKET_PATH = "/tmp/gymapp_rag_llm.sock"
-HOST = '100.89.146.28'
+HOST = ''
 PORT = 5000 # 6000 is cache 5000 is llm
 END_MARKER = b"##__END__##"
 
